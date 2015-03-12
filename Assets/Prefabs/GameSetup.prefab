@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameSetup
+  m_TagString: Untagged
+  m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -7, z: -30.7304058}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d202e5ff3941444b68cfa41170539e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xWind: {x: 0, y: 0}
+  windAngle: 0
+  topWall: {fileID: 6100000, guid: da9e77218c96e5544a9b18c30daf7ce8, type: 2}
+  leftWall: {fileID: 6100000, guid: 18cfb753e1c86594fb7130d0283869df, type: 2}
+  rightWall: {fileID: 6100000, guid: 96af1e1d1c57e904db25bdeed296ff98, type: 2}
+  projectile: {fileID: 100000, guid: 60c11a0269de7dd41bb341186c6a62ab, type: 2}
+  restartPlayer1: {fileID: 21300000, guid: 4013e4dc288651d419b0f0d40d7e6605, type: 3}
+  restartPlayer2: {fileID: 21300000, guid: d0edf2c8d579864498219ad2ade883e3, type: 3}
+  skin: {fileID: 11400000, guid: ef366c4902f3ab4449fb3db47d44661a, type: 2}
+  windArrow: {fileID: 400000, guid: ec302d7d2601fab46836063fd5a6b747, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
